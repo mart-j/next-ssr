@@ -1,0 +1,22 @@
+.container {
+  padding:  60px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  > div {
+    display: flex;
+    max-width: 600px;
+    flex: 1;
+    height: auto
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
